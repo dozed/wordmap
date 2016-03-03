@@ -5,15 +5,41 @@
   <title>Scalajs-react-template-webpack</title>
   <!-- Include JavaScript dependencies -->
   <script type="text/javascript" src="build/bundle.js"></script>
+  <style type="text/css">
+    .countries {
+      fill: #b0d0ab;
+      stroke: #6cb0e0;
+      stroke-width: 0.5px;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      vector-effect: non-scaling-stroke;
+    }
+    .airports {
+      fill: #036;
+      stroke: #6cb0e0;
+      stroke-width: 0.5px;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      vector-effect: non-scaling-stroke;
+    }
+    .route {
+      fill: none;
+      stroke-width: 0;
+    }
+    .plane {
+      fill: #fff;
+      stroke-width: 0;
+    }
+  </style>
 </head>
 <body>
 
 <div id="container"></div>
 
-
 <!-- Include Scala.js compiled code -->
 <script type="text/javascript" src="build/wordmap-opt.js"></script>
 <!-- Run JSApp -->
 <script type="text/javascript" src="build/wordmap-launcher.js"></script>
+
 </body>
 </html>

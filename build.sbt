@@ -14,7 +14,8 @@ libraryDependencies ++= Seq(
   "com.github.japgolly.scalajs-react" %%% "ext-scalaz71" % scalaJSReactVersion,
   // "com.github.japgolly.scalajs-react" %%% "ext-monocle" % scalaJSReactVersion,
   "com.github.japgolly.fork.scalaz" %%% "scalaz-core" % "7.1.3",
-  "com.github.japgolly.fork.monocle" %%% "monocle-core" % "1.1.1"
+  "com.github.japgolly.fork.monocle" %%% "monocle-core" % "1.1.1",
+  "org.singlespaced" %%% "scalajs-d3" % "0.3.1"
 )
 
 // https://github.com/non/kind-projector
